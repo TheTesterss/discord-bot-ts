@@ -1,0 +1,33 @@
+{
+  "name": "epsilon",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier -w src",
+    "build": "tsc -b",
+    "start": "node dist/main.js",
+    "launch": "yarn install && yarn build && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTesterss/epsilon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheTesterss/epsilon/issues"
+  },
+  "homepage": "https://github.com/TheTesterss/epsilon#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.2",
+    "prettier": "^3.4.2"
+  }
+}
