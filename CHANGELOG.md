@@ -23,9 +23,9 @@ Split the event handler from the self class to an another class
 &&&&&&
 2024-12-27
 V0.1
-+ Added event handler
-+ Added a customizable color module that works with discord ansi blocks.
+Added event handler
+Added a customizable color module that works with discord ansi blocks.
 &&&&&&
 2024-12-22
 V0.0.1
-+ Pushed on github
+Pushed on github
